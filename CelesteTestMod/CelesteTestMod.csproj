@@ -50,11 +50,14 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs" />
+        <Compile Include="CelesteTestMod.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Audio\CelesteTestMod.bank" />
+      <Content Include="Audio\CelesteTestMod.guids.txt" />
       <Content Include="everest.yaml" />
+      <Content Include="package.bat" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

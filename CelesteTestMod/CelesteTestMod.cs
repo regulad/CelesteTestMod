@@ -2,6 +2,12 @@
 
 namespace CelesteTestMod
 {
+    [SettingName("CelesteTestMod Settings")]
+    public class CelesteTestModuleSettings : EverestModuleSettings
+    {
+        
+    }
+    
     public class CelesteTestModule : EverestModule
     {
         public static CelesteTestModule Instance;
